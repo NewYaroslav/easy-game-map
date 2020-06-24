@@ -3,6 +3,7 @@
 
 #include "easy-game-map-common.hpp"
 #include "easy-game-map-calc.hpp"
+#include "easy-game-map-chunk.hpp"
 
 namespace egm {
 

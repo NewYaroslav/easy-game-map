@@ -1,11 +1,15 @@
 #ifndef EASY_GAME_MAP_GENERAL_HPP_INCLUDED
 #define EASY_GAME_MAP_GENERAL_HPP_INCLUDED
 
+#include "easy-game-map-common.hpp"
+#include "easy-game-map-chunk.hpp"
+
 namespace egm {
 
     template<class T>
     class Map2D {
-
+    private:
+        std::map<chunk_id_int_t, std::map<chunk_id_int_t, Chunk<T>>> grid;
     public:
 
         /** \brief Конструктор класса карты 2D

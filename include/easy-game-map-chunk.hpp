@@ -202,4 +202,4 @@ namespace egm {
     };
 }
 
-#endif // EASY-GAME-MAP-CHUNK_HPP_INCLUDED
+#endif // EASY_GAME_MAP_CHUNK_HPP_INCLUDED
